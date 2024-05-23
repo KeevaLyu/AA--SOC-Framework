@@ -12,7 +12,7 @@ The figure illustrates the AA*-SOC framework for increasing the efficiency of po
   2. The framework incorporates a Smoothed Obstacle Clearance (SOC) strategy, which guides police to clear obstacles in “smoothed directions” as determined by minimum angle rather than shortest distance. This strategy can quickly establish passable roads for evacuation and rescue. 
 
 ## Experiment
-Two representative region maps were used for the rescue scenarios: San Francisco and Silicon Valley because each city is based on very different urban planning concepts. 
+Two representative region maps were used for the rescue scenarios: San Francisco and Silicon Valley. 
 
 ### Performance Evaluation
 The proposed method(AA*-SOC) yields superior outcomes and performance, outperforming all baseline methods in rescue simulation.
