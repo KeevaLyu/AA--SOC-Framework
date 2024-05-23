@@ -6,9 +6,11 @@ AA*-SOC is a novel framework for police to improve the effectiveness of natural 
 Natural disasters like fires, earthquakes, and hurricanes inflict substantial human and economic losses. A crucial aspect in mitigating these losses lies in police efforts to clear blockades and, in so doing, allow other rescue personnel to move efficiently around the scene. Such police actions substantially impact the overall. To improve the effectiveness of disaster rescue, we develop the AA*-SOC framework for police to simulate multi-agent rescue missions in disaster situations using the RoboCupRescue Simulation (RCRS) system.
 
 # Framework
-![AA*-SOC Framework](img/Framework.png)
+![AA*-SOC Framework](img/framework.png)
 
-Figure illustrates the AA*-SOC framework for increasing the efficiency of police rescue missions. AA*-SOC framework employs an Adaptive A* graph routing (AA*) approach that considers the severity of the disaster, the nature of any obstacles, and the road conditions to adaptively optimise route selection for blockage search in different disaster environments. This allows police to conduct blockage searches more effectively and efficiently. Additionally, the framework incorporates a Smoothed Obstacle Clearance (SOC) strategy, which guides police to clear obstacles in “smoothed directions” as determined by minimum angle rather than shortest distance. This strategy can quickly establish passable roads for evacuation and rescue. 
+Figure illustrates the AA*-SOC framework for increasing the efficiency of police rescue missions. 
+  1. AA*-SOC framework employs an Adaptive A* graph routing (AA*) approach that considers the severity of the disaster, the nature of any obstacles, and the road conditions to adaptively optimise route selection for blockage search in different disaster environments. This allows police to conduct blockage searches more effectively and efficiently.
+  2. The framework incorporates a Smoothed Obstacle Clearance (SOC) strategy, which guides police to clear obstacles in “smoothed directions” as determined by minimum angle rather than shortest distance. This strategy can quickly establish passable roads for evacuation and rescue. 
 
 # Experiment
 Two representative region maps were used for the rescue scenarios: San Francisco and Silicon Valley because each city is based on very different urban planning concepts. We ran AA*-SOC and the baselines 10 times across each of the region maps in the RCRS system and then calculated the average score for each region.
@@ -16,10 +18,10 @@ Two representative region maps were used for the rescue scenarios: San Francisco
 ## Performance Evaluation
 The proposed method(AA*-SOC) outperforms all baseline methods in rescue simulation.
 
-![AA*-SOC Performance](img/scores.png)
+![AA*-SOC Performance](img/final_scores.png)
 As shown in Table,  AA*-SOC's final scores surpass all baselines in all regions.
 
-![AA*-SOC Performance](img/result.png)
+![AA*-SOC Performance](img/final_senarios.png)
 As shown in the final rescue scenarios, the blocked roads of AA*-SOC are both less than the baselines in San Francisco and Silicon Valley.
 
 # Running
