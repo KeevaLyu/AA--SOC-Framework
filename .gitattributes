@@ -1,3 +1,0 @@
-CSU filter=lfs diff=lfs merge=lfs -text
-rcrs-server-1.5 filter=lfs diff=lfs merge=lfs -text
-AA*-SOC filter=lfs diff=lfs merge=lfs -text
