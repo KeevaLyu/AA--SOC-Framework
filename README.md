@@ -13,15 +13,17 @@ Figure illustrates the AA*-SOC framework for increasing the efficiency of police
   2. The framework incorporates a Smoothed Obstacle Clearance (SOC) strategy, which guides police to clear obstacles in “smoothed directions” as determined by minimum angle rather than shortest distance. This strategy can quickly establish passable roads for evacuation and rescue. 
 
 # Experiment
-Two representative region maps were used for the rescue scenarios: San Francisco and Silicon Valley because each city is based on very different urban planning concepts. We ran AA*-SOC and the baselines 10 times across each of the region maps in the RCRS system and then calculated the average score for each region.
+Two representative region maps were used for the rescue scenarios: San Francisco and Silicon Valley because each city is based on very different urban planning concepts. 
 
 ## Performance Evaluation
 The proposed method(AA*-SOC) outperforms all baseline methods in rescue simulation.
 
 ![AA*-SOC Performance](img/final_scores.png)
+
 As shown in Table,  AA*-SOC's final scores surpass all baselines in all regions.
 
 ![AA*-SOC Performance](img/final_senarios.png)
+
 As shown in the final rescue scenarios, the blocked roads of AA*-SOC are both less than the baselines in San Francisco and Silicon Valley.
 
 # Running
@@ -63,6 +65,6 @@ $ ./launch.sh -all
 ```
 After all codes are complete, click on the platform‘s run button.
 
-# 6. Support
+# Support
 
 To report a bug, suggest improvements or request support, please open an issue at GitHub <https://github.com/KeevaLyu/AA--SOC-Framework/issues>.
