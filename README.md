@@ -1,6 +1,6 @@
 # `AA*-SOC Framework` Adaptive A* Graph Routing Approach with Smoothed Obstacle Clearance Strategy
 
-(Linux) Instructions to download, build and run the AA*-SOC Framework using the RoboCupRescue Simulation (RCRS) system
+Instructions to download, build and run the AA*-SOC Framework using the RoboCupRescue Simulation (RCRS) system
 
 ## 1. Software Pre-Requisites
 
@@ -8,7 +8,7 @@
 - Gradle
 - OpenJDK Java 8+
 
-## 2. Download project from GitHub
+## 2. Download the project from GitHub
 
 ```bash
 
@@ -27,9 +27,9 @@ Open a new terminal window, navigate to the ```AA*-SOC``` root directory
 $ ./gradlew clean build
 ```
 
-## 4. Execute the Rescue Simulation Server
+## 4. Execute the project
 
-Open the terminal window in the ```rcrs-server``` root directory and execute
+Open the terminal window of the ```rcrs-server``` root directory and execute
 
 ```bash
 $ cd boot
