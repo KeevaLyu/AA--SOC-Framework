@@ -6,9 +6,6 @@ Natural disasters like fires, earthquakes, and hurricanes inflict substantial hu
 
 ## Framework
 ![AA*-SOC Framework](img/framework.png)
-<p align="center">
-  <img src="img/framework.png" />
-</p>
 
 The figure illustrates the AA*-SOC framework for increasing the efficiency of police rescue missions. 
   1. AA*-SOC framework employs an Adaptive A* graph routing (AA*) approach that considers the severity of the disaster, the nature of any obstacles, and the road conditions to adaptively optimise route selection for blockage search in different disaster environments. This allows police to conduct blockage searches more effectively and efficiently.
@@ -32,21 +29,20 @@ As shown in the final rescue scenarios, the blocked roads of AA*-SOC are both le
 
 ## Running
 ### 1. Software Pre-Requisites
-
+```
 - Git
 - Gradle
 - OpenJDK Java 8+
+```
 
 ### 2. Compile the project
 
 Open a terminal window, navigate to the ```rcrs-server-1.5``` root directory
-
 ```bash
 $ ./gradlew clean completeBuild
 ```
 
 Open another terminal window, navigate to the ```AA*-SOC``` root directory
-
 ```bash
 $ ./gradlew clean build
 ```
@@ -54,7 +50,6 @@ $ ./gradlew clean build
 ### 3. Execute the project
 
 Open the terminal window of the ```rcrs-server-1.5``` root directory and execute
-
 ```bash
 $ cd boot
 $ ./start.sh -m ../maps/gml/vc/map -c ../maps/gml/vc/config
