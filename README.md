@@ -30,9 +30,9 @@ As shown in the final rescue scenarios, the blocked roads of AA*-SOC are both le
 ## Running
 ### 1. Software Pre-Requisites
 ```
-- Git
-- Gradle
-- OpenJDK Java 8+
+Git
+Gradle
+OpenJDK Java 8+
 ```
 
 ### 2. Compile the project
@@ -54,8 +54,8 @@ Open the terminal window of the ```rcrs-server-1.5``` root directory and execute
 $ cd boot
 $ ./start.sh -m ../maps/gml/vc/map -c ../maps/gml/vc/config
 ```
-- "vc" is short for Silicon Valley region, which can be changed to use another map.
-- "SF" is short for San Francisco region.
+- `vc` is short for Silicon Valley region, which can be changed to use another map.
+- `sf` is short for San Francisco region.
 
 Open the terminal window of the ```AA*-SOC``` root directory and execute
 ```bash
