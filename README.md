@@ -22,7 +22,9 @@ The proposed method(AA*-SOC) outperforms all baseline methods in rescue simulati
 </p>
 As shown in Table,  AA*-SOC's final scores surpass all baselines in all regions.
 
-![AA*-SOC Performance](img/final_senarios.png)
+<p align="center">
+  <img src="img/final_senario.png" />
+</p>
 As shown in the final rescue scenarios, the blocked roads of AA*-SOC are both less than the baselines in San Francisco and Silicon Valley.
 
 # Running
