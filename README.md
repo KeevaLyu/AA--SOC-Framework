@@ -1,5 +1,4 @@
 # `AA*-SOC` Adaptive A* Graph Routing Approach with Smoothed Obstacle Clearance Strategy
-
 AA*-SOC is a novel framework for police to improve the effectiveness of natural disaster rescue.
 
 # Introduction
@@ -18,12 +17,12 @@ Two representative region maps were used for the rescue scenarios: San Francisco
 ## Performance Evaluation
 The proposed method(AA*-SOC) outperforms all baseline methods in rescue simulation.
 
-![AA*-SOC Performance](img/final_scores.png)
-
+<p align="center">
+  <img src="img/final_scores.png" />
+</p>
 As shown in Table,  AA*-SOC's final scores surpass all baselines in all regions.
 
 ![AA*-SOC Performance](img/final_senarios.png)
-
 As shown in the final rescue scenarios, the blocked roads of AA*-SOC are both less than the baselines in San Francisco and Silicon Valley.
 
 # Running
