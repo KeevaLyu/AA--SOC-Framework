@@ -19,12 +19,12 @@ The proposed framework (AA*-SOC) yields superior outcomes and performance, outpe
 
 As shown in Table,  AA*-SOC's final scores surpass all baselines in all regions.
 <p align="center">
-  <img src="img/final_scores.png" />
+  <img src="img/scores.png" />
 </p>
 
 As shown in the final rescue scenarios, the blocked roads of AA*-SOC are both less than the baselines in San Francisco and Silicon Valley.
 <p align="center">
-  <img src="img/final_senarios.png" />
+  <img src="img/senarios.png" />
 </p>
 
 ## Running
