@@ -1,5 +1,5 @@
 # `AA*-SOC` Adaptive A* Graph Routing Approach with Smoothed Obstacle Clearance Strategy
-The AA*-SOC framework is a novel framework designed specifically for police to enhance the effectiveness of rescue operations during natural disasters. By leveraging an innovative algorithm and strategy, this framework aims to optimize police route selection and obstacle clearance, and ultimately improve the overall rescue efforts in disaster-stricken areas.
+AA*-SOC is a novel framework proposed for police to enhance the effectiveness of rescue operations during natural disasters. By leveraging an innovative algorithm and strategy, this framework aims to optimize police route selection and obstacle clearance, and ultimately improve the overall rescue efforts in disaster-stricken areas.
 
 ## Introduction
 Natural disasters like fires, earthquakes, and hurricanes inflict substantial human and economic losses. A crucial aspect in mitigating these losses lies in police efforts to clear blockades and, in so doing, allow other rescue personnel to move efficiently around the scene. Such police actions substantially impact the overall. To improve the effectiveness of disaster rescue, we develop the AA*-SOC framework for police to simulate multi-agent rescue missions in disaster situations using the RoboCupRescue Simulation (RCRS) system.
@@ -15,7 +15,7 @@ The figure illustrates the AA*-SOC framework for increasing the efficiency of po
 Two representative region maps were used for the rescue scenarios: San Francisco and Silicon Valley. 
 
 ### Performance Evaluation
-The proposed method(AA*-SOC) yields superior outcomes and performance, outperforming all baseline methods in rescue simulation.
+The proposed framework (AA*-SOC) yields superior outcomes and performance, outperforming all baseline methods in rescue simulation.
 
 As shown in Table,  AA*-SOC's final scores surpass all baselines in all regions.
 <p align="center">
@@ -62,7 +62,7 @@ Open the terminal window of the ```AA*-SOC``` root directory and execute
 $ ./launch.sh -all
 ```
 
-After all codes are complete, click on the platform‘s run button.
+After all codes are complete, click on the platform‘s `run` button.
 
 ## Support
 
