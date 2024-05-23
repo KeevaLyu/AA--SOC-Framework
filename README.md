@@ -11,25 +11,26 @@ Instructions to download, build and run the AA*-SOC Framework using the RoboCupR
 ## 2. Download the project from GitHub
 
 ```bash
-
 $ git@github.com:KeevaLyu/AA--SOC-Framework.git
 ```
 
 ## 3. Compile the project
 
 Open a terminal window, navigate to the ```rcrs-server-1.5``` root directory
+
 ```bash
 $ ./gradlew clean completeBuild
 ```
 
-Open a new terminal window, navigate to the ```AA*-SOC``` root directory
+Open another terminal window, navigate to the ```AA*-SOC``` root directory
+
 ```bash
 $ ./gradlew clean build
 ```
 
 ## 4. Execute the project
 
-Open the terminal window of the ```rcrs-server``` root directory and execute
+Open the terminal window of the ```rcrs-server-1.5``` root directory and execute
 
 ```bash
 $ cd boot
