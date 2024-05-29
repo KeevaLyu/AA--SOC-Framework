@@ -173,7 +173,7 @@ public class AAStarPathPlanning extends PathPlanning {
 	    }
 	 
 	    public double estimate() {
-	        return cost + heuristic;
+	        return cost + 1.5 * heuristic;
 	    }
 	 
 	    public EntityID getParent() {
