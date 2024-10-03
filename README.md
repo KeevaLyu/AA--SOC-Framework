@@ -1,4 +1,4 @@
-# `AA*-SOC` Adaptive A* Graph Routing Approach with Smoothed Obstacle Clearance Strategy
+# `AA*-SOC` Adaptive A* Graph Routing with Smoothed Obstacle Clearance
 AA*-SOC is a novel framework proposed for police to enhance the effectiveness of rescue operations during natural disasters. By leveraging an innovative algorithm and strategy, this framework aims to optimize police route selection and obstacle clearance, and ultimately improve the overall rescue efforts in disaster-stricken areas.
 
 ## Introduction
