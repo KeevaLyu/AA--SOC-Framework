@@ -18,7 +18,7 @@ Two representative region maps were used for the rescue scenarios: San Francisco
 The proposed framework (AA*-SOC) yields superior outcomes and performance, outperforming all baseline methods in rescue simulation.
 
 As shown in Table,  AA*-SOC's final scores surpass all baselines in all regions.
-<div align="center">
+
 | Method | Dijkstra_RCR   | A*_RCR   | A*_Random   | AA*_SOC   |
 | San Francisco | 99.17 | 99.21 | 98.65 | **103.30** |
 | Silicon Valley | 250.98 | 252.38 | 251.58 | **263.37** |
