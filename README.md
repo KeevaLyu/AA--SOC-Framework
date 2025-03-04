@@ -1,5 +1,5 @@
 # `AA*-SOC` Adaptive A* Graph Routing with Smoothed Obstacle Clearance
-AA*-SOC is a novel framework proposed for police to enhance the effectiveness of rescue operations during natural disasters. By leveraging an innovative algorithm and strategy, this framework aims to optimize police route selection and obstacle clearance, and ultimately improve the overall rescue efforts in disaster-stricken areas.
+AA*-SOC is a novel framework proposed for police to enhance the effectiveness of rescue operations during natural disasters. By leveraging an innovative algorithm and strategy, this framework aims to optimize police route selection and obstacle clearance and ultimately improve the overall rescue efforts in disaster-stricken areas.
 
 ## Introduction
 Natural disasters like fires, earthquakes, and hurricanes inflict substantial human and economic losses. A crucial aspect in mitigating these losses is police efforts to clear blockades and, in so doing, allow other rescue personnel to move efficiently around the scene. Such police actions substantially impact the overall effectiveness of disaster rescue. To improve the effectiveness of disaster rescue, we developed the AA*-SOC framework for police to simulate multi-agent rescue missions in disaster situations using the RoboCupRescue Simulation (RCRS) system.
@@ -66,7 +66,7 @@ Open the terminal window of the ```AA*-SOC``` root directory and execute
 $ ./launch.sh -all
 ```
 
-After all codes are complete, click on the platform‘s `run` button.
+After completing all codes, click the platform‘s `run` button.
 
 ## Support
 
