@@ -2,13 +2,13 @@
 AA*-SOC is a novel framework proposed for police to enhance the effectiveness of rescue operations during natural disasters. By leveraging an innovative algorithm and strategy, this framework aims to optimize police route selection and obstacle clearance, and ultimately improve the overall rescue efforts in disaster-stricken areas.
 
 ## Introduction
-Natural disasters like fires, earthquakes, and hurricanes inflict substantial human and economic losses. A crucial aspect in mitigating these losses lies in police efforts to clear blockades and, in so doing, allow other rescue personnel to move efficiently around the scene. Such police actions substantially impact the overall. To improve the effectiveness of disaster rescue, we develop the AA*-SOC framework for police to simulate multi-agent rescue missions in disaster situations using the RoboCupRescue Simulation (RCRS) system.
+Natural disasters like fires, earthquakes, and hurricanes inflict substantial human and economic losses. A crucial aspect in mitigating these losses is police efforts to clear blockades and, in so doing, allow other rescue personnel to move efficiently around the scene. Such police actions substantially impact the overall effectiveness of disaster rescue. To improve the effectiveness of disaster rescue, we developed the AA*-SOC framework for police to simulate multi-agent rescue missions in disaster situations using the RoboCupRescue Simulation (RCRS) system.
 
 ## Framework
 ![AA*-SOC Framework](img/framework.png)
 
 The figure illustrates the AA*-SOC framework for increasing the efficiency of police rescue missions. 
-  1. AA*-SOC framework employs an Adaptive A* graph routing (AA*) approach that considers the severity of the disaster, the nature of any obstacles, and the road conditions to adaptively optimise route selection for blockage search in different disaster environments. This allows police to conduct blockage searches more effectively and efficiently.
+  1. The AA*-SOC framework employs an Adaptive A* graph routing (AA*) approach that considers the severity of the disaster, the nature of any obstacles, and the road conditions to adaptively optimise route selection for blockage search in different disaster environments. This allows police to conduct blockage searches more effectively and efficiently.
   2. The framework incorporates a Smoothed Obstacle Clearance (SOC) strategy, which guides police to clear obstacles in “smoothed directions” as determined by minimum angle rather than shortest distance. This strategy can quickly establish passable roads for evacuation and rescue. 
 
 ## Experiment
@@ -17,17 +17,19 @@ Two representative region maps were used for the rescue scenarios: San Francisco
 ### Performance Evaluation
 The proposed framework (AA*-SOC) yields superior outcomes and performance, outperforming all baseline methods in rescue simulation.
 
-As shown in Table,  AA*-SOC's final scores surpass all baselines in all regions.
+As shown in the Table,  AA*-SOC's final scores surpass all baselines in all regions.
 
 | Method | Dijkstra_RCR   | A*_RCR   | A*_Random   | AA*_SOC   |
 |------------|------------|------------|------------|------------|
 | San Francisco | 99.17 | 99.21 | 98.65 | **103.30** |
 | Silicon Valley | 250.98 | 252.38 | 251.58 | **263.37** |
 
+<!-- 
 As shown in the final rescue scenarios, the blocked roads of AA*-SOC are both less than the baselines in San Francisco and Silicon Valley.
 <p align="center">
   <img src="img/scenarios.png" />
 </p>
+-->
 
 ## Running
 ### 1. Software Pre-Requisites
